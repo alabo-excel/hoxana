@@ -96,24 +96,35 @@ ol {
 -----------------------*/
 
 .spad {
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 90px;
+}
+
+@media (max-width: 591px) {
+	.top {
+		margin-top: 10px;
+	}
+
 }
 
 .section-title {
 	margin-bottom: 10px;
 }
-.support{
+
+.support {
 	font-size: 20px;
 }
-.support ul li{
+
+.support ul li {
 	list-style-type: none;
 }
-.support img{
+
+.support img {
 	width: 20px;
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
 .section-title h2 {
 	margin-bottom: 20px;
 }
@@ -305,12 +316,26 @@ ol {
 /*---------------------
 	Header section
 -----------------------*/
+.btn {
+	background-color: #030248;
+	color: white;
+}
+
+.bg-blue {
+	background-color: #030248;
+	color: white;
+}
+
+.btn1 {
+	background-color: #fff;
+	color: #030248;
+}
 
 .header-section {
 	position: absolute;
 	width: 100%;
 	top: 0;
-	padding: 10px 50px 0;
+	padding: 10px 50px 10px 50px;
 	z-index: 99;
 	background-color: #030248;
 }
@@ -365,12 +390,12 @@ ol {
 }
 
 .site-logo img {
-	width: 200px;
+	width: 80px;
 }
 
 @media (max-width: 468px) {
 	.site-logo img {
-		width: 100px;
+		width: 50px;
 	}
 }
 
@@ -469,12 +494,15 @@ ol {
 .feature .feature-content {
 	padding-left: 70px;
 }
-.feature-content ul li{
+
+.feature-content ul li {
 	font-size: 20px;
 }
-.side{
+
+.side {
 	width: 100%;
 }
+
 .feature .feature-content h4 {
 	margin-bottom: 15px;
 }
@@ -1711,7 +1739,7 @@ ol {
 
 @media only screen and (max-width: 767px) {
 	.header-section {
-		padding: 30px 0;
+		padding: 10px 0;
 		background: #fff;
 	}
 
